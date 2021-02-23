@@ -32,5 +32,7 @@ pyfirmata의 아두이노 모듈을 사용하기 위해 import함
  ``` it.start()``` \
 iterator 시작
 
-``` analog_value = analog_input.read() ```\
-Tilt sensor와 연결된 2번핀의 입력을 읽어와서 변수 analog_value에 저장
+```input_value = digital_input.read()```\
+ sensor와 연결된 2번핀의 입력을 읽어와서 변수 digital_value에 저장
+
+
