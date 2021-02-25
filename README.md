@@ -35,4 +35,19 @@ iterator 시작
 ```input_value = digital_input.read()```\
  sensor와 연결된 2번핀의 입력을 읽어와서 변수 input_value에 저장
 
+```\
+if analog_value is None: 
+  time.sleep(3)
+  break  
+``` 
+입력으로 들어온 analog_value값이 None이면 지연시키고 for문에서 빠져나옴
+
+```\
+  if input_value is True:
+    led.write(1)
+  else:
+   led.write(0)           
+```
+
+
 
