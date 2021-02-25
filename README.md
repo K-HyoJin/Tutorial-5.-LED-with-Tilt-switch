@@ -36,11 +36,12 @@ iterator 시작
  sensor와 연결된 2번핀의 입력을 읽어와서 변수 input_value에 저장
 
 ```\
-if analog_value is None: 
-  time.sleep(3)
-  break  
+for i in range(1):
+  if input_value is None: 
+   time.sleep(3)
+   break  
 ``` 
-입력으로 들어온 analog_value값이 None이면 지연시키고 for문에서 빠져나옴
+입력으로 들어온 input_value값이 None이면 지연시키고 for문에서 빠져나옴
 
 ```\
   if input_value is True:
@@ -48,6 +49,6 @@ if analog_value is None:
   else:
    led.write(0)           
 ```
-
-
+입력으로 들어온 input_value값이 ture이면 led가 켜지도록 1을 입력으로 주고\
+아니면 led가 꺼지도록 0을 입력으로 줌
 
