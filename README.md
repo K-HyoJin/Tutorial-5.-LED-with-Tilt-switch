@@ -4,7 +4,7 @@ Tilt switch sensor를 사용하여 기울기에 따라 LED에 불이 들어오�
 
 ## circuit
 LED : digital 13pin \
-Tilt switch sensor : analog 2pin\
+Tilt switch sensor : digital 2pin\
 <img src="https://user-images.githubusercontent.com/79436159/108855988-ece4fa80-762c-11eb-8e02-0b1841811361.png" width="500">
 
 ## code
