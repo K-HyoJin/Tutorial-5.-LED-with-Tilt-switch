@@ -51,3 +51,4 @@ for i in range(1):
 ```
 입력으로 들어온 input_value값이 ture이면 led가 켜지도록 1을 입력으로 주고\
 아니면 led가 꺼지도록 0을 입력으로 줌
+
